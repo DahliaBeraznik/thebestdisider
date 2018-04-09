@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    	<title></title>
+
+
+    	<style type="text/css">
+    		body {background-color: blue}
+    		button {
+    			padding: 2em;
+    			font-size: 2em;
+    			display: block;
+    			margin: 30vh auto;
+    			border-radius: 10px;
+    		}
+
+    	</style>
+   	
+
+    </head>
+    <body>
+    <button onclick="decide()">Give me a dicision!</button>
+    </body>
+    </html>
+      <script>
+	function decide() {
+var decisions = [
+"Yes",
+"No",
+"Maybe",
+"What ever you want", 
+"Defintly",
+"Why not",
+"Thats a very bad idea",
+"Are you crazy"] 
+alert(decisions[Math.floor(Math.random()  *8)]) 
+}  
+</script>
+ </body>
+  </html>
